@@ -1,0 +1,183 @@
+
+#login-dp{
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow:hidden;
+  background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+  font-size:12px    
+}
+#login-dp .bottom{
+  background-color:rgba(255,255,255,.8);
+  border-top:1px solid #ddd;
+  clear:both;
+  padding:14px;
+}
+#login-dp .social-buttons{
+  margin:12px 0    
+}
+#login-dp .social-buttons a{
+  width: 49%;
+}
+#login-dp .form-group {
+  margin-bottom: 10px;
+}
+
+.btn-fb:hover{
+  color: #fff;
+  background-color:#496ebc;
+}
+
+.btn-tw:hover{
+  color: #fff;
+  background-color:#59b5fa;
+}
+@media(max-width:768px){
+  #login-dp{
+      background-color: inherit;
+      color: #fff;
+  }
+  #login-dp .bottom{
+      background-color: inherit;
+      border-top:0 none;
+  }
+}
+
+
+
+
+* {box-sizing: border-box;}
+
+/* Style the navbar tenia #e9e9e9*/
+.topnav {
+  overflow: hidden;
+  background-color: #15083A;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over, tenia #ddd*/
+.topnav a:hover {
+  background-color: #504e4e9d;
+  color: #fff;
+}
+
+/* Active/current link */
+.topnav a.active {
+  background-color: #504e4e9d;
+  color: white;
+}
+
+/* Style the input container */
+.topnav .login-container {
+  float: right;
+}
+
+/* Style the input field inside the navbar */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+}
+
+.topnav input[type=password] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+}
+/* Style the button inside the input container */
+.topnav .login-container button {
+  float: right;
+  padding: 5px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-left: 4px;
+  background: #fff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background: #ccc;
+}
+
+
+
+.buscar{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#c1{
+  float: left;
+}
+
+.Login{
+  padding-top: 1px;
+  margin-top: 10px;
+}
+
+#reg{
+  margin-top: 40px; 
+}
+
+#registrados{
+  margin-top: 40px;
+  
+}
+
+.col-xm{
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-left: 12px;
+}
+
+#preview{
+  border:1px solid #ddd;
+  padding:5px;
+  border-radius:2px;
+  background:#fff;
+  max-width:200px;
+}
+
+
+#preview img {
+  width:100%;display:block;
+  
+}
+
+#iniciar{
+  margin-top: 1px;
+  margin-bottom: 5px;
+  margin-right: 3px;
+}
+
+.col-sm{
+  display: table-row;
+}
+
+body{
+  height: 200px;
+  background-image: linear-gradient(to bottom right, #15083A, #504e4e9d); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h5,h2,h6,h4{
+  color: white;
+}
